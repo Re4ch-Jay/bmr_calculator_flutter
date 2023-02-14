@@ -30,12 +30,12 @@ class CalculatorBrain {
 
   String _getMaleBMR() {
     _bmr = _calculateBMRMale();
-    return _bmr.toString();
+    return _bmr.toStringAsFixed(2);
   }
 
   String _getFemaleBMR() {
     _bmr = _calculateBMRFemale();
-    return _bmr.toString();
+    return _bmr.toStringAsFixed(2);
   }
 
   bool _isMale() {
